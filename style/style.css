@@ -28,4 +28,7 @@
 
 .feature_summary:hover{
   background-color: transparent;
+  border: none;
+  transition: all 0.3s ease !important;
+  transform: scale(1.1);
 }
