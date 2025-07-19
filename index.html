@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kelvin_task_04_kodeCamp</title>
+    <!-- =====================================BOOTSTRAP STYLE LINK=================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- ========================================LOCAL CSS LINK=========================================================== -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-dark fixed-top p-3 z-3">
+
+        <div class="container-fluid">
+
+            <!--brand name-->
+            <a href="#" class="fw-bold fs-3 text-primary text-decoration-none">KodeAgent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nav link list -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto nav-underline fw-semibold d-flex gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-primary" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link text-white link-primary" href="#feature">Features</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-primary" href="#pricing">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-primary" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-grid gap-3 d-md-block">
+                <!-- nav buttons -->
+                <button type="button" class="btn btn-dark text-white btn-outline-secondary px-4 py-2 font-medium">Sign in</button>
+                <button type="button" class="btn btn-primary text-white px-6 py-2 font-medium">Get Started</button>
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <!-- ===============================HERO SECTION============================================================== -->
+    <section class="container-fluid custom-container">
+        <div class="position-relative min-vh-100 d-flex justify-content-center mt-5">
+            <div class="relative z-2 text-center my-2">
+                <h1 class="text-white fw-bold" style="font-size: 5.5rem; text-decoration-style: blur;">
+                    The Future of
+                    <span class="d-block" style="color: #9333ea;">Project Based Learning</span>
+                </h1>
+
+                <p class="text-white mx-auto lh-2 fw-medium fs-4 mt-3 mb-4" style="font-size: 1.5rem; width: 57%;">
+                    Streamline your learning processes, boost productivity, and transform your 
+                    experience with our AI-powered Learning management automation platform.
+                </p>
+
+                <!-- Hero section button  -->
+                <div class="d-grid gap-5 d-md-block mt-5 hero_button mb-2">
+                    <button class="btn fw-semi-bold text-gray bg-white px-4 py-8" >
+                        Start free trial
+                    </button>
+
+                    <button class="btn fw-semi-bold text-white px-4 py-8 bg-transparent border border-white border-2">
+                        <span>
+                            Watch Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+                                <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5M13.991 3l.024.001a1.5 1.5 0 0 1 .538.143.76.76 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.5 1.5 0 0 1-.143.538.76.76 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.5 1.5 0 0 1-.538-.143.76.76 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.5 1.5 0 0 1 .143-.538.76.76 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2"/>
+                            </svg>
+                        </span>
+                    </button>
+   
+                </div>
+
+                <!--Hero Data summary -->
+                <div class="mt-5 container text-center">
+                    <div class="row">
+                        <div class="col-6 col-md-4 mb-2">
+                            <h3 class="fw-bold fs-1" style="color: #60A5FA;">50k+</h3>
+                            <span class="d-block text-white fw-medium">Active User</span> 
+                        </div>
+
+                        <div class="col-6 col-md-4 mb-2">
+                            <h3 class="fw-bold fs-1" style="color: #C084FC;">99.9%</h3>
+                            <span class="d-block text-white fw-medium">Uptime</span> 
+                        </div>
+
+                        <div class="col-6 col-md-4 mb-2">
+                            <h3 class="fw-bold fs-1" style="color: #F472B6;">24/7</h3>
+                           <span class="d-block text-white fw-medium">Support</span> 
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="feature" style="padding: 5rem 0; background-color: #1F2937;">
+        <div class="text-center">
+            <h2 class="text-primary fs-1 fw-bold mb-2">Powerful Features</h2>
+            <p class="text-white text-center fs-3 fw-normal">Everything you need to automate your workflows and boost your team's productivity</p>
+        </div>
+
+        <div class="d-md-flex px-2">
+            <div class="col-md-4 mb-2 feature_summary p-2 rounded">
+
+            </div>
+
+            <div class="col-md-4 mb-2 border-dark p2 me-2">
+                
+            </div>
+
+            <div class="col-md-4 mb-2 border-dark">
+                
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ======================================BOOTSTRAP DEPENDENCY======================================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
