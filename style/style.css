@@ -37,3 +37,8 @@
 .bg-gradient-custom {
   background-image: linear-gradient(to bottom right, #3b82f6, #9333ea);
 }
+
+.price_01:hover{
+  border: solid 1px #3b82f6;
+  transition: all 0.3s ease !important;
+}
